@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>FastTicket</title>
+     <link rel="stylesheet" href="/css/franco.css">
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <div>
+            <nav class="top-bar">
+            <img width="200" src="/images/LOGO FASTTICKET.png" alt="Logo" class="logo">
+                <h5 class="home"><a href="/index.html"></a>Home</h5>
+                <div class="busqueda">
+                    <p>Busqueda<i with="20px" class="fa-solid fa-magnifying-glass"></i></p>
+                </div>
+                <div class="perfil-ingreso">
+                    <h5>Perfil</h5><i class="fa-solid fa-address-card"></i>
+                    <a href="/login">Ingresá</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+     <form action="/login" method="post" class="login">
+          <div class="form-login">
+              <div>
+                   <label for="email">Correo Electronico:</label><br><br>
+                   <input type="email" placeholder="Ingresá tu correo electronico" id="email" required><br>
+               </div><br>
+                <div>
+                   <label for="repetir-contrasela">Reingresá tu contraseña:</label><br><br>
+                   <input type="password" placeholder="Ingresá tu contraseña" minlength="5" id="repetir-contrasela" required><br>
+               </div>
+               <div class="boton">
+                <button class="fondo-boton" type="submit" name="enviar">Terminar</button>
+                </div>
+          </div>
+     </form>
+    
+</body>
+<footer>
+    <section>
+        <article>Sobre nosotros</article>
+        <article>Contactanos</article>
+        <article>Redes</article>
+        <article>Made with Love By Us</article>
+    </section>
+</footer>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>FastTicket</title>
+     <link rel="stylesheet" href="/css/franco.css">
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <div>
+            <nav class="top-bar">
+            <img width="200" src="/img/LogoTicket.png" alt="Logo" class="logo">
+                <h5 class="home"><a href="/index.html"></a>Home</h5>
+                <div class="busqueda">
+                    <p>Busqueda<i with="20px" class="fa-solid fa-magnifying-glass"></i></p>
+                </div>
+                <div class="perfil-ingreso">
+                    <h5>Perfil</h5><i class="fa-solid fa-address-card"></i>
+                    <a href="/login">Ingresá</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+     <section class="registro">
+         <form action="/registro" method="post" class="form">
+             <h1>Registro</h1><br><br>
+
+             <div>
+                 <label for="email">Correo Electronico:</label><br>
+                 <input type="email" placeholder="Ingresá tu correo electronico" id="email" required><br>
+             </div>
+             <div>
+                 <label for="contraseña">Elija una Contraseña:</label><br>
+                 <input type="password" placeholder="Ingresá tu contraseña" minlength="5" id="contraseña" required><br>
+             </div>
+             <div>
+                 <label for="repetir-contrasela">Reingresá tu contraseña:</label><br>
+                 <input type="password" placeholder="Ingresá tu contraseña" minlength="5" id="repetir-contrasela" required><br>
+             </div>
+             <div class="nombre-apellido">
+                 <div>
+                     <label for="nombre">Nombre</label><br>
+                     <input type="text" placeholder="Ingresá tu Nombre" minlength="6" id="nombre" required><br>
+                 </div>
+                 <div>
+                    <label for="apellido">Apellido</label><br>
+                    <input type="text" placeholder="Ingresá tu Apellido" minlength="6" id="apellido" required><br>
+                </div>
+             </div><br>
+            <div>
+                <label for="direccion">Ingresá tu Dirección:</label><br><br>
+                <input type="text" placeholder="Dirección" id="direccion" minlength="8" required><br>
+            </div><br>
+            <div>
+                <label for="localidad">Localidad:</label><br><br>
+                <input type="text" placeholder="Indique su Localidad" id="localidad" minlength="8" required><br>
+            </div><br>
+            <div class="boton">
+            <button class="fondo-boton" type="submit" name="enviar">Terminar</button>
+            </div>
+
+         </form>
+
+     </section>
+    
+</body>
+<footer>
+    <section>
+        <article>Sobre nosotros</article>
+        <article>Contactanos</article>
+        <article>Redes</article>
+        <article>Made with Love By Us</article>
+    </section>
+</footer>
+</html>
