@@ -1,0 +1,14 @@
+body{
+    background-image: url(/images/fondo-pintura-salmon.jpg);
+    background-size: cover;
+ 
+}
+.barra-header{
+    text-align:left;
+}
+.registro{
+text-align:right;
+}
+footer{
+    text-align: center;
+}
